@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+}
+
+#info >.info-enter, #add {
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+.info-enter {
+    
+    padding: 20px;
+    width: 65%;
+    
+}
+#add {
+    cursor: pointer;
+}
+
+#add:hover {
+    color: gold;
+}
